@@ -49,3 +49,5 @@ function onImageClick(event) {
     }
   }
 }
+
+// Останнє збереження
