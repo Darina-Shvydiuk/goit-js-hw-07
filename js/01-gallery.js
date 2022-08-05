@@ -9,6 +9,7 @@ function createElements() {
     <img
       class="gallery__image"
       src=${elem.preview}
+      loading="lazy"
       data-source="${elem.original}"
       alt="${elem.description}"
     />
