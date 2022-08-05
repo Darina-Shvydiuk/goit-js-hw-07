@@ -5,7 +5,7 @@ const listGallary = document.querySelector(".gallery");
 function createElements() {
   const markup = galleryItems.reduce((acc, elem) => {
     return (acc += `<li><a class="gallery__item" href="${elem.original}">
-  <img class="gallery__image" src="${elem.preview} "loading="lazy" alt="${elem.description}" />
+  <img class="gallery__image" src="${elem.preview}  alt="${elem.description}" />
 </a></li>`);
   }, "");
 
